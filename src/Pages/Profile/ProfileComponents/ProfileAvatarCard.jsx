@@ -2,7 +2,7 @@ import { FaRegBell } from "react-icons/fa";
 
 const ProfileAvatarCard = () => {
   return (
-    <div className="p-8 grid grid-cols-4 items-end">
+    <div className="p-8 grid md:grid-cols-4 justify-center items-center  md:items-end gap-5 md:gap-20">
       {/* Avatar */}
       <div className="w-40 h-40 bg-[#F9F9F9] rounded-xl shadow col-span-1 overflow-hidden">
         <img

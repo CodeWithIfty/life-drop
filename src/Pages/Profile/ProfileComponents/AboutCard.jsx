@@ -13,25 +13,23 @@ const AboutCard = () => {
 
   return (
     <div className="w-full">
-
       <div className="flex justify-center items-center p-3">
         <h4 className="text-2xl font-semibold">About</h4>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center md:items-center">
         <div className="w-1/2 text-right ">
-
           {profileInfo.map(({ title }) => (
             <div className="" key={title}>
-              <h4 className="mr-10 p-2">{title}</h4>
+              <h4 className="md:mr-10 p-2">{title}</h4>
               <hr />
             </div>
           ))}
         </div>
 
-        <div className="w-1/2">
+        <div className="w-1/2 ">
           {profileInfo.map(({ info }) => (
             <div className="" key={info}>
-              <h5 className="ml-10 p-2">{info}</h5>
+              <h5 className="md:ml-10 p-2 ">{info}</h5>
               <hr />
             </div>
           ))}
