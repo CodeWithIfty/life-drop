@@ -1,4 +1,5 @@
 import AboutCard from "./ProfileComponents/AboutCard";
+import CalendarCard from "./ProfileComponents/CalendarCard";
 import DonationHistoryCard from "./ProfileComponents/DonationHistoryCard";
 import ProfileAvatarCard from "./ProfileComponents/ProfileAvatarCard";
 
@@ -21,8 +22,8 @@ const Profile = () => {
           <div className="bg-white rounded-xl  shadow w-80">
             <DonationHistoryCard />
           </div>
-          <div className="bg-white rounded-xl  shadow w-80 lg:mt-5">
-            <DonationHistoryCard />
+          <div className="bg-white rounded-xl  shadow w-80  overflow-hidden">
+            <CalendarCard />
           </div>
         </div>
       </div>

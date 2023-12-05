@@ -17,7 +17,7 @@ const DonationHistoryCard = () => {
           <h4 className="ml-4 p-2 text-gray-400 mb-5">Date</h4>
           {donationInfo.map(({ date }) => (
             <div className="" key={date}>
-              <h4 className="ml-4 p-2 text-gray-600">{date}</h4>
+              <h4 className="ml-4 p-2 text-gray-600 ">{date}</h4>
               <hr />
             </div>
           ))}
@@ -27,7 +27,7 @@ const DonationHistoryCard = () => {
           <h5 className="mr-5 p-2 text-gray-400 mb-5">Blood Units</h5>
           {donationInfo.map(({ units }) => (
             <div className="" key={units}>
-              <h5 className="mr-5 p-2 text-gray-600">{units}</h5>
+              <h5 className="mr-5 p-2 text-gray-600 text-sm">{units}</h5>
               <hr />
             </div>
           ))}
