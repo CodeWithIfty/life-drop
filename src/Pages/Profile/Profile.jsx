@@ -1,3 +1,4 @@
+import AboutCard from "./ProfileComponents/AboutCard";
 import ProfileAvatarCard from "./ProfileComponents/ProfileAvatarCard";
 
 const Profile = () => {
@@ -8,6 +9,9 @@ const Profile = () => {
         <div className=" col-span-4">
           <div className="bg-white rounded-xl  shadow">
             <ProfileAvatarCard />
+          </div>
+          <div className="bg-white rounded-xl  shadow mt-10">
+            <AboutCard />
           </div>
         </div>
 
