@@ -1,4 +1,5 @@
 import AboutCard from "./ProfileComponents/AboutCard";
+import DonationHistoryCard from "./ProfileComponents/DonationHistoryCard";
 import ProfileAvatarCard from "./ProfileComponents/ProfileAvatarCard";
 
 const Profile = () => {
@@ -16,7 +17,11 @@ const Profile = () => {
         </div>
 
         {/* Right Side  */}
-        <div className="bg-blue-600 col-span-2"> Right Side</div>
+        <div className=" col-span-1 ">
+          <div className="bg-white rounded-xl  shadow w-96">
+            <DonationHistoryCard />
+          </div>
+        </div>
       </div>
     </div>
   );
